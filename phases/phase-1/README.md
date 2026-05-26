@@ -82,17 +82,17 @@ Quotation Foundation
 # Project Screenshots
 
 ## 1. CRM Foundation Overview
-![Overview](Overview.png)
+![Overview](1-Overview.png)
 
 ---
 
 ## 2. CRM Architecture & Automation
-![Content](Content.png)
+![Content](2-Content.png)
 
 ---
 
 ## 3. Results & Future Improvements
-![Result](Result.png)
+![Result](3-Result.png)
 # Disclaimer
 
 This repository is a generalized educational case study.
