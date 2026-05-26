@@ -79,12 +79,20 @@ Quotation Foundation
 
 # Architecture Images
 
-![Workflow Overview](overview.png)
+# Project Screenshots
 
-![Results & Planning](results.png)
+## 1. CRM Foundation Overview
+![Overview](Overview.png)
 
 ---
 
+## 2. CRM Architecture & Automation
+![Content](Content.png)
+
+---
+
+## 3. Results & Future Improvements
+![Result](Result.png)
 # Disclaimer
 
 This repository is a generalized educational case study.
