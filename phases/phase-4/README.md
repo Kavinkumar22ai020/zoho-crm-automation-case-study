@@ -1,91 +1,87 @@
 # Phase 4 — Automated Quotation Generation & Delivery
 
-This phase completes the quotation workflow by automating everything after the user enters the required information.
+This phase focuses on automating the complete quotation generation and delivery process inside Zoho CRM.
 
-Instead of manually generating, saving and sending quotation documents, the entire process is completed automatically through Zoho CRM integrations.
-
----
-
-## Phase Overview
-
-![Phase 4 Architecture](Phase_4.jpg)
+After the user enters the required quotation details, the remaining workflow is executed automatically using Zoho CRM, Deluge, Zoho Writer, WorkDrive, and Cloudinary integrations.
 
 ---
 
-## Objective
+# Phase Overview
 
-Build a one-click quotation generation workflow that automatically creates, stores and delivers professional quotations.
+<p align="center">
+  <img src="./Phase_4.png" alt="Phase 4 Architecture" width="100%">
+</p>
 
 ---
 
-## Workflow
+# Objective
+
+Automate the complete quotation generation process with a single user action while ensuring consistency, accuracy, and centralized document management.
+
+---
+
+# Workflow
 
 ```text
-Customer Input
-        │
-        ▼
-Generate Quote Button
-        │
-        ▼
-Retrieve CRM Data
-        │
-        ▼
-Zoho Writer Merge API
-        │
-        ▼
-Load Images from Cloudinary
-        │
-        ▼
+Lead
+   ↓
+Contact
+   ↓
+Deal
+   ↓
+Generate Quote
+   ↓
+Zoho Writer Merge
+   ↓
 Generate PDF
-        │
-        ▼
+   ↓
 Upload to WorkDrive
-        │
-        ▼
-Attach PDF to CRM
-        │
-        ▼
+   ↓
+Attach to CRM
+   ↓
 Email Customer
-        │
-        ▼
+   ↓
 Save Document Link
 ```
 
 ---
 
-## Automation Implemented
+# Automation Implemented
 
-- Auto-fetch CRM customer information
+- Auto-fetch CRM quotation data
 - Generate quotation using Zoho Writer
 - Load project images from Cloudinary
 - Generate PDF automatically
-- Store document in Zoho WorkDrive
-- Attach PDF to CRM Deal
-- Email quotation to customer
-- Save generated document link inside CRM
+- Upload document to Zoho WorkDrive
+- Attach PDF to CRM record
+- Send quotation to customer via email
+- Save generated document link back to the Deal
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Zoho CRM Enterprise
-- Deluge
+- Deluge Scripting
 - Zoho Writer
 - Zoho WorkDrive
 - Cloudinary CDN
 - JavaScript Client Scripts
-- Writer mergeAndStore API
+- Zoho Writer Merge API
 
 ---
 
-## Outcome
+# Outcome
 
 - One-click quotation generation
-- Minimal manual effort
-- Standardized document delivery
-- Faster quotation processing
-- Improved document management
+- Reduced manual work
+- Automated PDF creation
+- Centralized document storage
+- Faster customer delivery
+- Improved workflow consistency
 
 ---
+
+**Project Status:** ✅ Completed
 
 Part of the **7-Phase Zoho CRM Automation Case Study**.
